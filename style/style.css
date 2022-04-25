@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(160, 149, 0);
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, rgb(44, 42, 42), rgb(92, 87, 87));
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cap{
+    padding: 10px;
+    text-align: center;
+    background-image: url(../image/pao-frances.jpeg); 
+    background-size: cover;  
+    background-position: center;
+    height: 200px;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(199, 72, 72), rgb(107, 47, 47));
+    padding: 10px;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color:white;
+}
+
+#form{
+    padding:20px;
+    background-image: url(../image/pao-frances-1603114029092_v2_4x3.jpg);
+    background-size: float;
+    overflow: hidden;
+    background-position: center;
+    background-size:cover;
+}
+
+
+.FormContainer{
+    max-width: 246px;
+    background-color: rgba(83, 78, 78, 80%);
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h2{
+    font-size: 16px;
+}
+
+h2,.mb{
+    margin-bottom: 10px;
+}
+
+input,select{
+    padding:10px;
+    margin-bottom: 3px;
+    border: none;
+    width: 100%;
+
+
+}
+
+input[type="submit"]{
+    color:white;
+    background-color:rgb(243, 155, 22);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#about{
+    background-image: linear-gradient(to right, rgb(199, 72, 72), rgb(107, 47, 47));
+    overflow: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    width: 160px;  
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-left: 40px;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    background-color: rgba(10, 10, 10, 50%);
+}
+
+.description h3,.description p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.textFooter{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 30px;
+    font-size: 15px;
+
+}
+
+
+@media (max-width: 600px){
+    #about{
+        padding: 10px;
+    }
+
+    .picture{
+        width: 160px;  
+        margin: 20px;
+    }
+
+
+    .description{
+        margin: 0 10% 10% 10% ;
+        display: block;
+        text-align: left;
+        max-width: 90%;
+        background-color: rgba(10, 10, 10, 50%);
+        padding: 15px;
+    }
+}
